@@ -1,6 +1,15 @@
 body {
+  padding: 10px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
   background-color: white;
   color: rgba(0, 0, 0, 1);
+}
+
+h4 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 p {
@@ -9,16 +18,18 @@ p {
 }
 
 /* Formatação de imagens com legendas*/
+
 .foto-milton {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
   position: relative;
-  /* border: 1px solid white;*/
+  align-items: center;
   /*box-shadow: 1px 1px 4px black; */
-  text-align: right;
-}
-.foto-milton img {
+  /*text-align: right;
   width: 20%;
   height: 20%;
-  text-align: center;
+  text-align: center;*/
 }
 /*.foto-milton figcaption {
   opacity: 0;
